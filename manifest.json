@@ -3,6 +3,11 @@
     "name": "dress",
     "version": "2.0.1",
     "permissions": [ "activeTab", "tabs", "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "icon2.png",
+      "16": "icon.png",
+      "48": "icon2.png"
+   },
 
    "background": {
       "persistent": false,
