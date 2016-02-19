@@ -14,8 +14,14 @@ if(videoEl == null){
 	}, false);
 	video.onerror = function() {
 		alert("( Try another page.");
-	};
-}
+	};}
 else{
 	videoEl.play();
 }
+
+
+video.addEventListener("ended", function() {
+	video.style.visibility = "hidden";
+	video.hide();
+});
+
